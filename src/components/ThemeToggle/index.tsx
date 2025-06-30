@@ -16,6 +16,7 @@ export default function ThemeToggle() {
 
   return (
     <View style={styles.container}>
+      <Text>Hello, World</Text>
       <Text>Dark</Text>
       <Switch onValueChange={toggleTheme} value={themeName === 'light'}></Switch>
       <Text>Light</Text>
